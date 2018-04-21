@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="MCP">
+      <UniqueIdentifier>{8a480144-d3d3-408e-89a1-2b78f2727d30}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clases">
+      <UniqueIdentifier>{18079a6b-6911-4c80-ab92-e4f1ab899357}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubClases">
+      <UniqueIdentifier>{7a1f386b-13b1-4566-b45e-a8bdc0b4b3c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Global">
+      <UniqueIdentifier>{787e1842-2555-4215-aaf0-e1b1edb313db}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="P3d_Arduino.ino" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="__vm\.P3d_Arduino.vsarduino.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Control.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Comunicacion.h">
+      <Filter>SubClases</Filter>
+    </ClInclude>
+    <ClInclude Include="C_GrupoChip.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Pines.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+    <ClInclude Include="1_Variables_MCP_LED.h">
+      <Filter>MCP</Filter>
+    </ClInclude>
+    <ClInclude Include="1_Variables_MCP_OUT.h">
+      <Filter>MCP</Filter>
+    </ClInclude>
+    <ClInclude Include="2_Inicializacion_MCP_LED.h">
+      <Filter>MCP</Filter>
+    </ClInclude>
+    <ClInclude Include="2_Inicializacion_MCP_OUT.h">
+      <Filter>MCP</Filter>
+    </ClInclude>
+    <ClInclude Include="Global.h">
+      <Filter>Global</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C_Control.cpp">
+      <Filter>Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Comunicacion.cpp">
+      <Filter>SubClases</Filter>
+    </ClCompile>
+    <ClCompile Include="C_GrupoChip.cpp">
+      <Filter>Clases</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

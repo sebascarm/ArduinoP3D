@@ -9,7 +9,7 @@
 #include "C_Comunicacion.h"
 #include "C_Control.h"
 void setup() {
-	 //S
+	 
 }
 
 // the loop function runs over and over again until power down or reset
