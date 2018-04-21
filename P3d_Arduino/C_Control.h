@@ -20,23 +20,18 @@ private:
 	byte V_Chip;
 	byte V_Posicion;
 	String V_Comando;
-	C_Comunicacion Comunicacion;
+	C_Comunicacion V_Comunicacion;
 public:
-	/// <summary>Constructor de la clase</summary> 
-	/// <param name = "Tipo">Tipo de Control (Switch, Pulsador, Llave, PoteAnalogo, PoteDigital)</param>
+	/// <summary>Constructor de la clase, Tipo de Control (Switch, Pulsador, Llave, PoteAnalogo, PoteDigital)</summary> 
 	C_Control(TipoControl Tipo);
-	/// <summary>Asignacion de Integrado</summary> 
-	/// <param name = "Chip">Chip individual asignado</param>
-	/// <param name = "Posicion">Posicion del Chip a leer</param>
+	/// <summary>Asignacion de Integrado (Chip individual asignado, Posicion del Chip a leer)</summary> 
 	void AsignarChip(byte Chip, byte Posicion);
-	/// <summary>Asignacion de Comando via Serie</summary> 
-	/// <param name = "Comando">Comando de envio via Serie</param>
+	/// <summary>Asignacion de Comando via Serie (Comando de envio via serie)</summary> 
 	void ComandoSerie(String Comando);
 	// Acciones
 	/// <summary>Envia el comando por el puerto serie si es necesario</summary> 
 	void EnviarComando();
-	/// <summary>Busca y carga  el comando recibido del puerto serie</summary> 
-	void CargarComando();
+
 
 };
 

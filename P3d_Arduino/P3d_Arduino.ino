@@ -5,6 +5,8 @@
 */
 
 // the setup function runs once when you press reset or power the board
+#include "C_Display.h"
+#include "C_MultiLed.h"
 #include "C_GrupoChip.h"
 #include "C_Comunicacion.h"
 #include "C_Control.h"

@@ -52,6 +52,12 @@
     <ClInclude Include="Global.h">
       <Filter>Global</Filter>
     </ClInclude>
+    <ClInclude Include="C_MultiLed.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="C_Display.h">
+      <Filter>Clases</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="C_Control.cpp">
@@ -61,6 +67,12 @@
       <Filter>SubClases</Filter>
     </ClCompile>
     <ClCompile Include="C_GrupoChip.cpp">
+      <Filter>Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="C_MultiLed.cpp">
+      <Filter>Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="C_Display.cpp">
       <Filter>Clases</Filter>
     </ClCompile>
   </ItemGroup>
